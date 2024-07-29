@@ -1,0 +1,51 @@
+Simula is consider the first object oriented programing language.
+Smalltalk is consider the first truly object progaming language.
+
+oops is a methodology to design a progarm using classes and object. it simplifies software development and maintainence by providing some concept.
+
+concepts of oops :- method , class , object , inheritance , polymosfism , encaplsulation , abstraction.
+
+object in oops :- an entity which has behaviour.an entity which defined as instance of a class.
+
+class in oops :- it is a logical entity. class can also be difined as a blueprint from which you can create a program.
+
+method in oops :- 
+a method is a block of code which only runs when it is called.
+you can pass data , known as parameters into a method.
+methods are used to perform cretian actions and they are also known as functions.
+why use method? to reuse code :define the code once and you can use it many times.
+
+types of method:- parameterized:- where we create a object to call the function; and non parameterized:- where we do not create a object to call the method.
+
+method overlording :- 
+multiple method can hava the same name but different parameters.
+we can overload method with adding more parameters.
+we can overload method by changing its datatype.
+
+method scope :- 
+variables declared directly inside a method are avaliable 
+
+
+inheritance in oops :- when one object acquire the properties and behaviour of parent object  it is known as inheritance.
+it provide .it provide runtime polymosfism.
+
+polymosfism:- if one task is performed in different ways it is known as polymosfism.
+
+abstraction:- hiding internal details and showing functions is known as abstraction. In java we hava 100% abstraction in case of interface.
+encaplsulation:- biding or wraping codes and data together into a single unit is known as encaplsulation.
+
+
+Recursion:- Recursion is a technique of making a function call itself. This technique provide a way to break complicated problems down into simple problem which are easier to solve.
+Recursion may be a bit difficult to understand. the way to figure out how it works is to expriment with it.
+
+java constructers :- a constructers in java is a special method that is used to initiliaze objects . the constructer is automatically called when an object of a class is created. it can be used to set initial values for object attributes.
+constructer is a special type member function.
+it is same as class name.
+it has no return types.
+we do not hava to call a constructer it is automatically called when object is created
+
+Annoymus object :- it simply means nameless. an object which has no refrence.
+it can be used at the time of object creation only.
+
+
+write a program to find a factorial of n nunmber by using Recursion
