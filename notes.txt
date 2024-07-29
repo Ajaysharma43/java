@@ -1,0 +1,176 @@
+aggression :- if a class have an entity refrennce  it known as  aggression. 
+              aggression represent has a relationship 
+              aggression has class use in different class
+
+java polymorphism :- method overloading in java:- if a class has multiple method having same name but different in parameters it is known as method overloading. 
+                                                  advantages:- increase the readibility of program. code readibility
+                                                  two ways to overload method in java:- 1. by changing number of argument
+                                                                                        2. by changing number of parameters
+                     method overridding in java:- if sub class(child class) has the same method as decalred in the parent class is known as method overridding.
+                                                  uses of method overridding:-  1.method overridding is used to provide the sepecfic implemnetation of method which is already provided by its super class.
+                                                  rules:- 1.method must have the same name as in the parent class
+                                                          2.the method must have the same parameters in the parent class
+                                                          3.there must be relationship(inheritance)
+
+super keyword in java :- it is a refrennce variable which is used to refer immediate parent class object.
+                      uses of super keyword:-1.it can used to refer immediate instance variable
+                                             2. super can be used to invoke parent class method
+                                             3. super can invoke parent class constructer.
+
+blank or uninitialized variable :- a final variable that is not initialized at the time of declaration is known as blank final variable
+it can only initialized in constructer.
+
+run time polymorphism:- it is also called dynamic method dispatch.it is a process in which it called on overwritten method is resolve at runtime rather than compile time.
+an overwritten method is called through the refrence variable of super class.
+the determination of the method to be called is based on the object is being refered to by  the variable.
+
+upcasting :- if the refrence variable of the class refer to the object of the child class is known as upcasting
+
+abstraction:- abstract class :- a class which is decalred with the abstract keyword is known as abstract class. it can have abstract and non abstract method.
+abastracton :- it is a process of hiding the implemnetation details and showing all the functionality to the user.
+way to achieve abastracton:- two ways to achieve abstraction in java:- 1. abtract class:- it can have abstract and non abstract method.it can hava constructer ans static method also
+                                                                       2. interface
+
+
+array :- an array is a similar type of element which has continuous memory location.
+         java array is an object contain element of similar data type.
+         additionally the element are stored in continuous memory location.
+         it is a datastructure that store similar element.
+         we can store a fixed set of element in java array.
+         array in java is indexed based,the first element of array is stored at zeroth index and 2nd element is stored at the first element and so on.
+         unlike c and c++ we get the length of the array using length member.
+         in c / c++ we use size operater.
+         array is an object of dynamiccally generated class.
+         advantages:-1.code optimisation:- it make the code optimise,we can retrive and sort the data efficiently.
+                     2.random access:- we can get any data located at an index position
+         disadvantages:-1.size limit :- we can store only fixed size of element in the array.if it does not grow its size at run time.to solve this problem collection framework is used in the java
+         type of array:- 
+
+searching algorithm:- searching algorithm are method or procedure used to find a sepecfic item or element within a collection of data.these algo are widely used in computer science and crucial for task like searching for a particular record in a database,finding an element in sorted list or locating a file on computer.
+types of searching algorithm :- 1.linear search:- in this simple algorithm each element in the collection is sequentially checked until the desire item is found or the entire list is traversed.time complexity of linear search is O(n).
+                                2.binary search:- this algorithm is applicable only on sorted array.it repetally compare the middle element of the array with the target element and narrow down the search by half based on the result.its time complexity is O(log n). it is highly recomended for large sort arraya list.
+
+sorting algorithm :- a sorting algorithm is used to rearrange a given array of list of element accourding to comparasion operater on the element.the comparasion operater is used to decide the new order of element in the respective data structure.
+charactersitcs of sorting algorithm:- 1.time complexity 
+                                      2.space complexity 
+                                      3.stability
+                                      4.inplace sorting
+                                      5.adaptibity
+
+bubble sort :- it is a simplest sorting algorithm that works by repetally sorting the adjecent element if they are in wrong order.this algorithm is not sutiable for large data sets as its average and worst time complexity is very high.is time complexity is n^2.space complexityis O(1)
+selectionsort : - it is a simple and sorting algo that works by repetally selecting and sorting .from the unsorted portion the list and moving it to unsorted portion of the sorted portion of the list.its time complexity is n^2.and space complexity is O(1).
+insertion sort :- it is simple sorting algo that works while iteralvely inserting each element of an unsorted list into its corrent prositon in the sorted protion of the list. it is a stable sorting algo meaning that element with equal value meaning that 
+quick sort :- quick sort is a sorting algorithm based on the divide and conquer algo that picks an element as a pivot an partion the given array around the pigged pivot by placing in the correct position in the sorted array
+merge sort :- merge sort is a sorting algo that follows the devide and conquer approach.it works by recursively deviding the input array into a smaller sub array and sorting sub array then merging then back together to obtain the sorted array. time complexity of merge sort is 
+
+String in java :- String are the type of object that can store the charecter of values and in java every character is stored in 16 bit  i.e using utf 16 bit encoding . A string acts a same as a array in java 
+String builder in java is an alternative to string and string buffer class. as it create mutable sequence of character as it is not thread safe.
+
+arraylist operation:-decalred an array list of different types
+                     add element
+                     get element
+                     add element at sepecfic index
+                     set element ar sepecfic location
+                     delete element at sepecfic index
+                     size of the list
+                     sort the list
+
+primitive :- primitive data types are basic and include such values as integers , boolean , character and other simple stored memory types. non primitive data types are more complex values such as strings object and arrays . memory locations are different for both diffrence between primitive and non primitive data types.
+
+time complexity :- there is more than one way to solve a problem with different algorithm.therefore it is highly required to use a method to compare a solution in order to judge which one is more optimal. the method must be :-
+                  1. independent of the machine and its congiguration on which the algo is runnng on.
+                  2. shows a direct co relation with a number of inputs 
+                  3. can distinguish two algo without ambiguity
+
+time complexity:- the time complexity of an algo quantify the ammount of time taken by an algo to run as an function of the length of the input.note that the time to run is a function of the length the input and not the actual execution time of the machine on which the algo is running on. the valid algo take the finite ammount of time for execution.the time a required by the algo to solve the given problem is called time complexity.
+
+space complexity :- problem solving using computer required memory hold temporary data or final result while the program is execution.the ammount of memory required by an algo to solve the given the given problem is called the space complexity.
+                   1.to estimate the memory requriment we need to focus on two parts:-
+                        a.first fixed part:
+                          1.it is include memory for instruction(code,constant and variable etc).
+                          2.it is independent of the input size.
+                        b.variable part :-
+                          1.it is dependent on input size.
+                          2.it include memory for instruction.it include memory for recursion stack,refrenced variable
+                              
+
+bitwise operater:- they are used to performing the manuplation of individual bits of a number.they can be used with any integral type char , shot , int.they are used when performing update and query operation of the binary index tree.
+bitwise operater in java:-1.bitwise OR(|)  :- this operater is a binary operater denoted by ( | ).it returns bitwise or of the input value that is either of it is 1 else it shows 0.
+                          2.bitwise AND(&) :- this operater is a binary operater denoted by ( & ).it returns bitwise and of the input value that is if both bits
+                          3.bitwise XOR(^) :- this operater is a binary operater denoted by ( ^ ).it returns bitwise and of the input value that is if corrosponding bits are different it gives 1 else 0.A^A = A, A^0=A ,
+                          4.right shift(>>):- 
+                          #bitwise complement:- this operater is a uniary operater and binary operater denoted by(~) .it returns the 1,s complement represantation of the input value.with all bits inverted that is which means all bits inverted and makes every 1 to 0 and every 0 to 1. 
+                          shift operater is used to shift the bits from left to right
+                          unsignd left shift operater
+
+right shift :- a/2^b 
+
+advantages of bitwise operater :- 1.speed :- bitwise operater are much faster then arithemetic operater as they operete directly on binary operation numbers.
+                                  2.space optimisation :- bitwise operater can be used to store multiple values in a single variable which can be used when with limited memeory.
+                                  3.bit manuplation :- bitwise operater allows for presise control over individual bits of a number,which can be used in various application such as cryptography,error detection,comparasion.
+                                  4.code simplification :- bitwise operation can simplify the code by reducing the number of conditional statement and loops repuired 
+
+recursion:- the process in which function call itself directly or indirectly in called recursion and the corrosponding function is called recursive function.using recursive algorithm certain problem can be solve easily eg tower of hanoi , infixed , post fix , tree traversal and dfs(depth first search),String matching algorithm.
+recursive function solve a particular problem by calling a copy of itself and by solving a smaller sub problem. many more recursive call can be generated as when required.
+properties of recursion:-1.perofrming the same operations multiple time with same input.
+                         2.in every step we tried smaller input to make to make every problem smaller.
+                         3.base condition is required to stop the recursion.
+tail recursion:- tail recursion is defined as a recursive function in which the recursive call is the last statement that is executed by the function.so basically nothing is left to execute after the recursive call.
+
+stack overflow:- if the base case is not reached and not arrived then the stack overflow condition may arise.if the memory is exausted by these function it may cause stack overflow.
+disadvantages of recursion :- 1.the recursive program has the  as all function has great space then the irative program until the base case is reached.
+                              2.it also has a greater time requirement because of function calls and return overhead.
+                              
+direct or indirect recursion :- a function fun is called by direct recursion if it called the function.a function fun is called indirect recursion if a function fun says fun-new fun directly.
+subset :- a set of which all the elements are contained in another set
+          the total number of subset of any given set is equal to 2^number of element in the set
+          it is nothing but binary number from 0 - 15.
+          permutation and combination 
+          this is pattern of taking some element and removing some is known as subset pattern
+
+subsequencing :- a subsequence is defined as a sequence that can derived a sequence by deleting some or none of the element without changing the  order of the remaing element.
+properties of subsequence :-1.a sequence is a sub sequence of itself
+                            2.empty sequence is a sub sequence of every sequence 
+                            3.the number of possible subsequence of sequence length is 2^n
+                            4.a subsequence of subsequence is also a subsequence of original sequence.
+
+
+backtracking :- it is a problem solving algorithm techinique that involve finding a solution incremmently by trying different options and undoing them if they lead a dead end.it is used in condition where u need to explore multiple properties to solve a problem.
+
+permutation and combination:- 
+
+n queen problem :- n*n(board);
+                   n queens
+                   print all the problem where the queen are saved
+
+stack:- it is a linear data structure that follows particular order in which the order are perform .the order may be lifo(last in first out).it implies the element that is inserted last comes out first 
+queue:- the queue data sturcture is a fundamental in computer science use for storing and managing data in a specific order. it implies the principle of first in first out where the first element added to the first one in remove
+
+binary tree :- a binary tree is a herirchal data structure in which each node has at most two children refered to as the left child and the right child.it is commonly used in computer science for using and retervial of data , with various operations such as insertion , deletion , search and traversal 
+binary search tree :- it is a data structure used in computer science for organizing and storing data in sorted method.each node in a binary search tree has at most children , a left child and right child , with the left child continue value less than the parent node and the right child containing values greater than the paremet node.this herirchal sturcture allows for efficient searching , insertion , deletion operation.
+
+you are given an n activity .select the maximum number of activity that can be perform by a single person assuming that a person can .acitvity are sorted accourding.
+start = (10,12,20) int time = 20 , 25, 30;
+
+graph :- graph is a data structure is a collection of nodes by edges.
+it is used to represent relatonship between different entities
+graph algo are method used to manipulate and analyze graph , solve various problems like finding sortest path.
+
+the minimun spannig tree is a subset of edges of a connected , edge weighted , undirected . that connect all the vertices together without any cycle and with the minimal possible edge weight 
+
+dynamic programing is a techinique that helps to efficiently solve a class of problem that have overlaping sub problems and optimal sub property 
+1.dp is optimised recursion
+2.some choise is given , multiple branches is given in the tree
+
+important questions :- 0 - 1 knapsack , unbounded knapsack , kadanes algorithm , catalan number , dp on grid
+
+memoization :- is a top down approach wherer we catch the result and return a catch result if the function is called again with the same input.it is used when we can divide the problem into sub problem and sub problem have .memoization is tipically implemted using recursin and well suited for problems that have relatively small set of input
+tabulation is a set of result where we solve the result of the larger sub problem until we solve the entire sub problem and sub problem do not overlap.tabulation is typically and your well suited for a large set of problem 
+rod cutting :- given a rod of length n inches and an array of pieces that includes pieces of all pieces of size smaller than array.
+determine the maximun value of obtainable by cutting up the rood and sealing the pieces
+length  = 12345678;
+piece = 15;
+89 10 17 17 20
+max rod length = 8;
+
+can be null deleted without changing the related order of the remaing character 
